@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#171717</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#2E2E2E</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">#171717</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#2E2E2E</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+    <style name="background">
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+    </style>
+
+    <style name="tableItem">
+        <item name="android:background">@drawable/table_item_background</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>
