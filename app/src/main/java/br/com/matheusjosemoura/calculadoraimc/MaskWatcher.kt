@@ -3,7 +3,6 @@ package br.com.matheusjosemoura.calculadoraimc
 import android.text.Editable
 import android.text.TextWatcher
 
-
 class MaskWatcher(private val mask: String) : TextWatcher {
     private var isRunning = false
     private var isDeleting = false
