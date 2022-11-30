@@ -49,7 +49,7 @@ class RegisterActivity : AppCompatActivity() {
 
             override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
-        spinnerGender.setOnItemSelectedListener(listener);
+        spinnerGender.setOnItemSelectedListener(listener)
 
         // Listener (Ouvinte) do botão cadastrar
         buttonAddRegister.setOnClickListener {
@@ -57,7 +57,7 @@ class RegisterActivity : AppCompatActivity() {
             // Obter os dados digitados pelo usuário
             val name = editTextTextPersonNameRegister.text.toString().trim()
             val lastName = editTextTextPersonLastNameRegister.text.toString().trim()
-            val email = editTextTextEmailAddressRegisterRegister.text.toString().trim().toLowerCase()
+            val email = editTextTextEmailAddressRegisterRegister.text.toString().trim().lowercase()
             val password = editTextTextPasswordRegister.text.toString().trim()
             val gender = spinnerGender.selectedItem.toString()
 
